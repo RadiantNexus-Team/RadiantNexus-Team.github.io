@@ -1,8 +1,10 @@
 body {
-  background-color: #000000;
+  background-image: url("test.png");
+  background-repeat: repeat;
+  background-color: #F0A903;
 }
 h1 {
-  color: #ffffff;
+  color: #000000;
 }
 h2 {
   color: #ffffff;
@@ -20,19 +22,19 @@ h6 {
   color: #ffffff;
 }
 p {
-  color: #ffffff;
+  color: #000000;
 }
 a:link {
-	color: #3333FF;
+	color: #33FF33;
 }
 a:visited {
-	color: #9933CC;
+	color: #33FF33;
 }
 a:hover {
-	color: #3333FF;
+	color: #33FF33;
 }
 a:active {
-	color: #FF3333;
+	color: #33FF33;
 }
 ul {
   list-style: none; /* Remove default bullets */
@@ -46,5 +48,5 @@ ul li::before {
 }
 @font-face{
 	font-family:"Hello Headline";
-        src: url(hello-headline.ttf)  format("truetype");
+    src: url(hello-headline.ttf)  format("truetype");
 }
