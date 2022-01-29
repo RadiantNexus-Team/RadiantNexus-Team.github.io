@@ -1,8 +1,8 @@
 body {
-  background-color: #F0A903;
+  background-color: #000000;
 }
 h1 {
-  color: #000000;
+  color: #ffffff;
 }
 h2 {
   color: #ffffff;
@@ -20,7 +20,19 @@ h6 {
   color: #ffffff;
 }
 p {
-  color: #000000;
+  color: #ffffff;
+}
+a:link {
+	color: #3333FF;
+}
+a:visited {
+	color: #9933CC;
+}
+a:hover {
+	color: #3333FF;
+}
+a:active {
+	color: #FF3333;
 }
 ul {
   list-style: none; /* Remove default bullets */
@@ -31,8 +43,4 @@ ul li::before {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-@font-face{
-	font-family:"Hello Headline";
-    src: url(hello-headline.ttf)  format("truetype");
 }
