@@ -21,6 +21,7 @@ h6 {
 }
 p {
   color: #ffffff;
+  outline: 5px dotted black;
 }
 a:link {
 	color: #3333FF;
