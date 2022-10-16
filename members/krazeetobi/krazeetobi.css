@@ -32,9 +32,7 @@ ul li::before {
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
-/* This is a failed attempt at implementing custom fonts. Please don't try to re-enable this. It doesn't work in Firefox Nightly. 2022-10-16 Tobi
 @font-face{
 	font-family:"Hello Headline";
     src: url(hello-headline.ttf)  format("truetype");
 }
-End comment. */
