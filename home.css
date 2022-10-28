@@ -2,10 +2,13 @@ body {
   background-image: url("bg.png");
 }
 h1 {
+  margin-left: 120px;
+  margin-right: 120px;
   color: #ffffff;
 }
 h2 {
-  margin-left: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
   color: #ffffff;
 }
 h3 {
