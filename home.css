@@ -22,7 +22,7 @@
 	font-weight: bold;
 	font-style: italic;
 	src: url(/fonts/Rodin-BoldItalic.ttf);
-
+}
 body {
   background-image: url("bg.png");
 }
