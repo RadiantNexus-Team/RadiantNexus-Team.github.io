@@ -1,3 +1,28 @@
+
+@font-face {
+	font-family: Rodin;
+	font-weight: normal;
+	font-style: normal;
+	src: url(/fonts/Rodin-Regular.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: bold;
+	font-style: normal;
+	src: url(/fonts/Rodin-Bold.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: normal;
+	font-style: italic;
+	src: url(/fonts/Rodin-Italic.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: bold;
+	font-style: italic;
+	src: url(/fonts/Rodin-BoldItalic.ttf);
+
 body {
   background-image: url("bg.png");
 }
@@ -49,6 +74,13 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+
+
+.maintext {
+	font-family: Rodin;
+	font-weight: bold;
+	font-size: 18pt;
+}
 .centerbutton {
     text-align:center;
 
